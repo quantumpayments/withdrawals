@@ -1,2 +1,6 @@
-module.exports = require('./lib/webcredits')
-module.exports.createServer = require('./lib/create-server')
+module.exports = {
+  handlers : {
+    withdrawal        : require('./lib/handlers/withdrawal'),
+    withdrawalrequest : require('./lib/handlers/withdrawalrequest')
+  }
+}

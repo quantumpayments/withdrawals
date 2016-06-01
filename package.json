@@ -1,6 +1,6 @@
 {
   "name": "qpm_withdrawal",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "withdrawal",
   "main": "index.js",
   "scripts": {
@@ -36,6 +36,7 @@
     "sequelize": "^3.23.2",
     "url-parse": "^1.1.1",
     "vhost": "^3.0.2",
+    "wc_db": "0.0.1",
     "webcredits": "^0.1.22",
     "webid": "^0.3.7"
   }
