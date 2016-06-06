@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/head %>
+</head>
+<body>
+
+  <% include ../partials/nav %>
+
+  <div class="content-wrapper">
+    <section class="content-header">
+
+
+      <div>
+      Amount  : <%=  ui.amount %><br>
+      Address : <%= ui.address %><br>
+      Sent to inbox!<br>
+      <a href="/"><a href="/withdrawal">Withdrawal</a><br>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    <% include ../partials/footer %>
+  </footer>
+
+</body>
+</html>

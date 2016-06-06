@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/head %>
+</head>
+<body>
+
+  <% include ../partials/nav %>
+
+  <div class="content-wrapper">
+    <section class="content-header">
+
+
+      <div>
+      Address : <a target="_blank" href="http://tbtc.blockr.io/address/info/<%= ui.deposit %>"><%= ui.deposit %></a><br>
+      <form method=post action=withdrawalrequest>Withdraw<br>
+      <input type="input" name="address"><br>
+      <input type="input" name="amount"><br>
+      <input type="submit" value="Submit"> </form><br>
+      <a href="/withdrawal">Withdrawal</a><br>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    <% include ../partials/footer %>
+  </footer>
+
+</body>
+</html>
